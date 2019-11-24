@@ -42,7 +42,7 @@ viewName p = name p
 setPostCode :: String -> Person -> Person
 setPostCode newPostCode p = undefined
 
-viewPostCode :: String -> Person -> Person
+viewPostCode :: Person -> String
 viewPostCode newPostCode p = undefined
 
 -- You can see how this might get tedious
